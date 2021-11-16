@@ -3,7 +3,7 @@
 
 .skills {
   @include sm-min {
-    padding: $gap-sm;
+    padding: $gap-sm $gap-sm $gap-x2;
   }
   @include sm {
     padding: $gap;
@@ -35,9 +35,5 @@
     justify-content: center;
 
     margin-top: $gap;
-
-    @include sm-min {
-      margin-bottom: gap-lg;
-    }
   }
 }
