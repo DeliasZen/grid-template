@@ -14,9 +14,7 @@
 
   color: $color-light;
 
-  @include lg-min {
-    font-size: 1.125rem;
-  }
+  font-size: 1.125rem;
 
   &--light {
     border: 2px solid $color-light;
@@ -29,10 +27,16 @@
     @include lg-md {
       width: 200px;
       height: 50px;
+
+      font-size: 1rem;
     }
-    @include lg {
+    @include md {
       width: 170px;
       height: 40px;
+
+      letter-spacing: 0.05em;
+
+      font-size: 1rem;
     }
   }
 
@@ -53,5 +57,18 @@
   &:hover,
   &:focus {
     background-color: $color-accent;
+  }
+}
+
+.posts h2,
+.about h2 {
+  margin-top: 0;
+}
+
+.posts__action,
+.skills__actions {
+  @include sm-min {
+    display: flex;
+    justify-content: center;
   }
 }
