@@ -11,6 +11,7 @@
 
   &__container {
     display: grid;
+
     padding-bottom: $gap;
 
     @include lg-min {

@@ -10,8 +10,6 @@
 html {
   overflow-y: scroll;
 
-  letter-spacing: 0.1em;
-
   color: $color-gray;
 
   font-family: $font-main;
@@ -41,6 +39,13 @@ h1 {
 }
 
 h2 {
+  letter-spacing: 0.1em;
+
+  color: $color-primary;
+
+  font-family: "Roboto Slab", serif;
+  line-height: 1.2em;
+
   @include lg-min {
     margin-bottom: 3rem;
 
@@ -63,18 +68,13 @@ h2 {
 
     font-size: 1.5rem;
   }
-
-  letter-spacing: 0.1em;
-
-  color: $color-primary;
-
-  font-family: "Roboto Slab", serif;
-  line-height: 1.2em;
 }
 
 h3 {
   letter-spacing: 0.05em;
+
   color: $color-gray;
+
   font-size: 1.125rem;
 }
 
