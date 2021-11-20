@@ -102,6 +102,20 @@
       text-align: center;
     }
   }
+  &:hover,
+  &:focus {
+    background-color: darken($color-gray-light, 5%);
+
+    img {
+      transform: scale(1.1);
+    }
+    p {
+      color: $color-primary;
+    }
+    h3 {
+      color: $color-primary;
+    }
+  }
 }
 
 @for $i from 1 through 6 {
