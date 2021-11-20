@@ -102,8 +102,8 @@
       text-align: center;
     }
   }
-  &:hover,
-  &:focus {
+
+  &:hover {
     background-color: darken($color-gray-light, 5%);
 
     img {

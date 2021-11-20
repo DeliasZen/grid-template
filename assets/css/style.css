@@ -705,18 +705,18 @@ input:focus {
   transition: color 0.5s;
   text-align: center;
 }
-.post-item:hover, .post-item:focus {
+.post-item:hover {
   background-color: #d8d8d8;
 }
-.post-item:hover img, .post-item:focus img {
+.post-item:hover img {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
-.post-item:hover p, .post-item:focus p {
+.post-item:hover p {
   color: #2d3651;
 }
-.post-item:hover h3, .post-item:focus h3 {
+.post-item:hover h3 {
   color: #2d3651;
 }
 
